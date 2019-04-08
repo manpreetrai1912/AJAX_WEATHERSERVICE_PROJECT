@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script>
+        var calculator = {
+            sum:0,
+            StartNumber: 1109,
+            StepDownNo: 11,
+            endNumber: 119,
+            adder: function () {
+                for ( i = this.StartNumber; i >this.endNumber; i -= this.StepDownNo) {
+                    this.sum += i;
+                }
+                return this.sum;
+            }
+            };
+            document.write(calculator.adder());
+        
+     
+    </script>
+</head>
+<body>
+    <script >
+      
+    </script>
+</body>
+</html>
